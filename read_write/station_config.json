@@ -1,0 +1,41 @@
+{
+  "connections": [
+    {
+      "name": "IEC104_Station2",
+      "common_address": 47,
+      "server_ip": "127.0.0.1",
+      "server_port": 2404,
+      "groups": [
+        {
+          "group_name": "Double CMD",
+          "asdu_type": "C_DC_NA_1",
+          "start_ioa": 11,
+          "quantity": 11,
+          "description": ""
+        },
+        {
+          "group_name": "Single CMD",
+          "asdu_type": "C_SC_NA_1",
+          "start_ioa": 1,
+          "quantity": 10,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "New_Station",
+      "common_address": 1,
+      "server_ip": "127.0.0.1",
+      "server_port": 2404,
+      "groups": [
+        {
+          "group_name": "Group-1",
+          "asdu_type": "M_SP_NA_1",
+          "start_ioa": 1,
+          "quantity": 10,
+          "description": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,502 @@
+{
+  "name": "RTU_Substation_01",
+  "common_address": 47,
+  "server_ip": "127.0.0.1",
+  "server_port": 2404,
+  "groups": [
+    {
+      "group_name": "Digital_Inputs",
+      "asdu_type": "M_SP_NA_1",
+      "start_ioa": 100,
+      "quantity": 10,
+      "description": "",
+      "points": [
+        {
+          "ioa": 100,
+          "name": "Digital_Inputs_1",
+          "asdu_type": "M_SP_NA_1",
+          "value": null,
+          "quality": "UNKNOWN",
+          "timestamp": null
+        },
+        {
+          "ioa": 101,
+          "name": "Digital_Inputs_2",
+          "asdu_type": "M_SP_NA_1",
+          "value": null,
+          "quality": "UNKNOWN",
+          "timestamp": null
+        },
+        {
+          "ioa": 102,
+          "name": "Digital_Inputs_3",
+          "asdu_type": "M_SP_NA_1",
+          "value": null,
+          "quality": "UNKNOWN",
+          "timestamp": null
+        },
+        {
+          "ioa": 103,
+          "name": "Digital_Inputs_4",
+          "asdu_type": "M_SP_NA_1",
+          "value": null,
+          "quality": "UNKNOWN",
+          "timestamp": null
+        },
+        {
+          "ioa": 104,
+          "name": "Digital_Inputs_5",
+          "asdu_type": "M_SP_NA_1",
+          "value": null,
+          "quality": "UNKNOWN",
+          "timestamp": null
+        },
+        {
+          "ioa": 105,
+          "name": "Digital_Inputs_6",
+          "asdu_type": "M_SP_NA_1",
+          "value": null,
+          "quality": "UNKNOWN",
+          "timestamp": null
+        },
+        {
+          "ioa": 106,
+          "name": "Digital_Inputs_7",
+          "asdu_type": "M_SP_NA_1",
+          "value": null,
+          "quality": "UNKNOWN",
+          "timestamp": null
+        },
+        {
+          "ioa": 107,
+          "name": "Digital_Inputs_8",
+          "asdu_type": "M_SP_NA_1",
+          "value": null,
+          "quality": "UNKNOWN",
+          "timestamp": null
+        },
+        {
+          "ioa": 108,
+          "name": "Digital_Inputs_9",
+          "asdu_type": "M_SP_NA_1",
+          "value": null,
+          "quality": "UNKNOWN",
+          "timestamp": null
+        },
+        {
+          "ioa": 109,
+          "name": "Digital_Inputs_10",
+          "asdu_type": "M_SP_NA_1",
+          "value": null,
+          "quality": "UNKNOWN",
+          "timestamp": null
+        }
+      ]
+    },
+    {
+      "group_name": "Double_Points",
+      "asdu_type": "M_DP_NA_1",
+      "start_ioa": 200,
+      "quantity": 5,
+      "description": "",
+      "points": [
+        {
+          "ioa": 200,
+          "name": "Double_Points_1",
+          "asdu_type": "M_DP_NA_1",
+          "value": null,
+          "quality": "UNKNOWN",
+          "timestamp": null
+        },
+        {
+          "ioa": 201,
+          "name": "Double_Points_2",
+          "asdu_type": "M_DP_NA_1",
+          "value": null,
+          "quality": "UNKNOWN",
+          "timestamp": null
+        },
+        {
+          "ioa": 202,
+          "name": "Double_Points_3",
+          "asdu_type": "M_DP_NA_1",
+          "value": null,
+          "quality": "UNKNOWN",
+          "timestamp": null
+        },
+        {
+          "ioa": 203,
+          "name": "Double_Points_4",
+          "asdu_type": "M_DP_NA_1",
+          "value": null,
+          "quality": "UNKNOWN",
+          "timestamp": null
+        },
+        {
+          "ioa": 204,
+          "name": "Double_Points_5",
+          "asdu_type": "M_DP_NA_1",
+          "value": null,
+          "quality": "UNKNOWN",
+          "timestamp": null
+        }
+      ]
+    },
+    {
+      "group_name": "Analog_Values",
+      "asdu_type": "M_ME_NC_1",
+      "start_ioa": 300,
+      "quantity": 20,
+      "description": "",
+      "points": [
+        {
+          "ioa": 300,
+          "name": "Analog_Values_1",
+          "asdu_type": "M_ME_NC_1",
+          "value": null,
+          "quality": "UNKNOWN",
+          "timestamp": null
+        },
+        {
+          "ioa": 301,
+          "name": "Analog_Values_2",
+          "asdu_type": "M_ME_NC_1",
+          "value": null,
+          "quality": "UNKNOWN",
+          "timestamp": null
+        },
+        {
+          "ioa": 302,
+          "name": "Analog_Values_3",
+          "asdu_type": "M_ME_NC_1",
+          "value": null,
+          "quality": "UNKNOWN",
+          "timestamp": null
+        },
+        {
+          "ioa": 303,
+          "name": "Analog_Values_4",
+          "asdu_type": "M_ME_NC_1",
+          "value": null,
+          "quality": "UNKNOWN",
+          "timestamp": null
+        },
+        {
+          "ioa": 304,
+          "name": "Analog_Values_5",
+          "asdu_type": "M_ME_NC_1",
+          "value": null,
+          "quality": "UNKNOWN",
+          "timestamp": null
+        },
+        {
+          "ioa": 305,
+          "name": "Analog_Values_6",
+          "asdu_type": "M_ME_NC_1",
+          "value": null,
+          "quality": "UNKNOWN",
+          "timestamp": null
+        },
+        {
+          "ioa": 306,
+          "name": "Analog_Values_7",
+          "asdu_type": "M_ME_NC_1",
+          "value": null,
+          "quality": "UNKNOWN",
+          "timestamp": null
+        },
+        {
+          "ioa": 307,
+          "name": "Analog_Values_8",
+          "asdu_type": "M_ME_NC_1",
+          "value": null,
+          "quality": "UNKNOWN",
+          "timestamp": null
+        },
+        {
+          "ioa": 308,
+          "name": "Analog_Values_9",
+          "asdu_type": "M_ME_NC_1",
+          "value": null,
+          "quality": "UNKNOWN",
+          "timestamp": null
+        },
+        {
+          "ioa": 309,
+          "name": "Analog_Values_10",
+          "asdu_type": "M_ME_NC_1",
+          "value": null,
+          "quality": "UNKNOWN",
+          "timestamp": null
+        },
+        {
+          "ioa": 310,
+          "name": "Analog_Values_11",
+          "asdu_type": "M_ME_NC_1",
+          "value": null,
+          "quality": "UNKNOWN",
+          "timestamp": null
+        },
+        {
+          "ioa": 311,
+          "name": "Analog_Values_12",
+          "asdu_type": "M_ME_NC_1",
+          "value": null,
+          "quality": "UNKNOWN",
+          "timestamp": null
+        },
+        {
+          "ioa": 312,
+          "name": "Analog_Values_13",
+          "asdu_type": "M_ME_NC_1",
+          "value": null,
+          "quality": "UNKNOWN",
+          "timestamp": null
+        },
+        {
+          "ioa": 313,
+          "name": "Analog_Values_14",
+          "asdu_type": "M_ME_NC_1",
+          "value": null,
+          "quality": "UNKNOWN",
+          "timestamp": null
+        },
+        {
+          "ioa": 314,
+          "name": "Analog_Values_15",
+          "asdu_type": "M_ME_NC_1",
+          "value": null,
+          "quality": "UNKNOWN",
+          "timestamp": null
+        },
+        {
+          "ioa": 315,
+          "name": "Analog_Values_16",
+          "asdu_type": "M_ME_NC_1",
+          "value": null,
+          "quality": "UNKNOWN",
+          "timestamp": null
+        },
+        {
+          "ioa": 316,
+          "name": "Analog_Values_17",
+          "asdu_type": "M_ME_NC_1",
+          "value": null,
+          "quality": "UNKNOWN",
+          "timestamp": null
+        },
+        {
+          "ioa": 317,
+          "name": "Analog_Values_18",
+          "asdu_type": "M_ME_NC_1",
+          "value": null,
+          "quality": "UNKNOWN",
+          "timestamp": null
+        },
+        {
+          "ioa": 318,
+          "name": "Analog_Values_19",
+          "asdu_type": "M_ME_NC_1",
+          "value": null,
+          "quality": "UNKNOWN",
+          "timestamp": null
+        },
+        {
+          "ioa": 319,
+          "name": "Analog_Values_20",
+          "asdu_type": "M_ME_NC_1",
+          "value": null,
+          "quality": "UNKNOWN",
+          "timestamp": null
+        }
+      ]
+    },
+    {
+      "group_name": "Counters",
+      "asdu_type": "M_IT_NA_1",
+      "start_ioa": 400,
+      "quantity": 5,
+      "description": "",
+      "points": [
+        {
+          "ioa": 400,
+          "name": "Counters_1",
+          "asdu_type": "M_IT_NA_1",
+          "value": null,
+          "quality": "UNKNOWN",
+          "timestamp": null
+        },
+        {
+          "ioa": 401,
+          "name": "Counters_2",
+          "asdu_type": "M_IT_NA_1",
+          "value": null,
+          "quality": "UNKNOWN",
+          "timestamp": null
+        },
+        {
+          "ioa": 402,
+          "name": "Counters_3",
+          "asdu_type": "M_IT_NA_1",
+          "value": null,
+          "quality": "UNKNOWN",
+          "timestamp": null
+        },
+        {
+          "ioa": 403,
+          "name": "Counters_4",
+          "asdu_type": "M_IT_NA_1",
+          "value": null,
+          "quality": "UNKNOWN",
+          "timestamp": null
+        },
+        {
+          "ioa": 404,
+          "name": "Counters_5",
+          "asdu_type": "M_IT_NA_1",
+          "value": null,
+          "quality": "UNKNOWN",
+          "timestamp": null
+        }
+      ]
+    },
+    {
+      "group_name": "Commands",
+      "asdu_type": "C_DC_TA_1",
+      "start_ioa": 500,
+      "quantity": 5,
+      "description": "",
+      "points": [
+        {
+          "ioa": 500,
+          "name": "Commands_1",
+          "asdu_type": "C_DC_TA_1",
+          "value": null,
+          "quality": "UNKNOWN",
+          "timestamp": null
+        },
+        {
+          "ioa": 501,
+          "name": "Commands_2",
+          "asdu_type": "C_DC_TA_1",
+          "value": null,
+          "quality": "UNKNOWN",
+          "timestamp": null
+        },
+        {
+          "ioa": 502,
+          "name": "Commands_3",
+          "asdu_type": "C_DC_TA_1",
+          "value": null,
+          "quality": "UNKNOWN",
+          "timestamp": null
+        },
+        {
+          "ioa": 503,
+          "name": "Commands_4",
+          "asdu_type": "C_DC_TA_1",
+          "value": null,
+          "quality": "UNKNOWN",
+          "timestamp": null
+        },
+        {
+          "ioa": 504,
+          "name": "Commands_5",
+          "asdu_type": "C_DC_TA_1",
+          "value": null,
+          "quality": "UNKNOWN",
+          "timestamp": null
+        }
+      ]
+    },
+    {
+      "group_name": "Setpoints",
+      "asdu_type": "C_SE_NC_1",
+      "start_ioa": 600,
+      "quantity": 10,
+      "description": "",
+      "points": [
+        {
+          "ioa": 600,
+          "name": "Setpoints_1",
+          "asdu_type": "C_SE_NC_1",
+          "value": null,
+          "quality": "UNKNOWN",
+          "timestamp": null
+        },
+        {
+          "ioa": 601,
+          "name": "Setpoints_2",
+          "asdu_type": "C_SE_NC_1",
+          "value": null,
+          "quality": "UNKNOWN",
+          "timestamp": null
+        },
+        {
+          "ioa": 602,
+          "name": "Setpoints_3",
+          "asdu_type": "C_SE_NC_1",
+          "value": null,
+          "quality": "UNKNOWN",
+          "timestamp": null
+        },
+        {
+          "ioa": 603,
+          "name": "Setpoints_4",
+          "asdu_type": "C_SE_NC_1",
+          "value": null,
+          "quality": "UNKNOWN",
+          "timestamp": null
+        },
+        {
+          "ioa": 604,
+          "name": "Setpoints_5",
+          "asdu_type": "C_SE_NC_1",
+          "value": null,
+          "quality": "UNKNOWN",
+          "timestamp": null
+        },
+        {
+          "ioa": 605,
+          "name": "Setpoints_6",
+          "asdu_type": "C_SE_NC_1",
+          "value": null,
+          "quality": "UNKNOWN",
+          "timestamp": null
+        },
+        {
+          "ioa": 606,
+          "name": "Setpoints_7",
+          "asdu_type": "C_SE_NC_1",
+          "value": null,
+          "quality": "UNKNOWN",
+          "timestamp": null
+        },
+        {
+          "ioa": 607,
+          "name": "Setpoints_8",
+          "asdu_type": "C_SE_NC_1",
+          "value": null,
+          "quality": "UNKNOWN",
+          "timestamp": null
+        },
+        {
+          "ioa": 608,
+          "name": "Setpoints_9",
+          "asdu_type": "C_SE_NC_1",
+          "value": null,
+          "quality": "UNKNOWN",
+          "timestamp": null
+        },
+        {
+          "ioa": 609,
+          "name": "Setpoints_10",
+          "asdu_type": "C_SE_NC_1",
+          "value": null,
+          "quality": "UNKNOWN",
+          "timestamp": null
+        }
+      ]
+    }
+  ]
+}
